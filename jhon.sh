@@ -1,9 +1,9 @@
 #! /bin/bash
-printf "Installing RDP Be Patience... " >&2
+printf "Sabar lagi install ... " >&2
 {
 sudo useradd -m IBADIL
 sudo adduser IBADIL sudo
-echo 'IBADIL:087711' | sudo chpasswd
+echo '  IBADIL:8426' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
